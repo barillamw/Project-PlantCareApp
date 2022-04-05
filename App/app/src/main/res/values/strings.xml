@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EVE</string>
+    <string name="text_garden">Your Garden</string>
+    <string name="button_water">Water</string>
+    <string name="button_lights">Light</string>
+    <string name="button_lights_color">Light Color</string>
+    <string name="confirm">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="plant1_name">Seth</string>
+    <string name="plant2_name">Dakota</string>
+    <string name="plant3_name">Clark</string>
+    <string name="plant4_name">Michael</string>
+    <string name="water_status">\t\tWater Status</string>
+    <string name="water_time">\t\tLast Watered</string>
+    <string name="moisture_status">\t\tMoisture Level</string>
+    <string name="soil_temp">\t\tSoil Temperature</string>
+    <string name="sunlight_status">\t\tLight Status</string>
+    <string name="overall_health">\t\tOverall Health</string>
+</resources>

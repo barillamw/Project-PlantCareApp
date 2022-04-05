@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FirstPlant">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="417dp"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/water1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/colorLightGrey"
+        android:text="@string/button_water"
+        android:textColor="@color/textGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waterStat" />
+
+    <TextView
+        android:id="@+id/healthStat"
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="264dp"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical"
+        android:text="@string/overall_health"
+        android:textColor="@color/textGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/moistureStat"
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical"
+        android:text="@string/sunlight_status"
+        android:textColor="@color/textGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthStat" />
+
+    <TextView
+        android:id="@+id/waterStat"
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical"
+        android:text="@string/water_time"
+        android:textColor="@color/textGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moistureStat" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/_michael"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="419dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/colorPrimary2"
+        android:gravity="center"
+        android:text="@string/plant4_name"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:saveEnabled="false"
+        android:layout_width="214dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="40dp"
+        android:min="0"
+        android:max="10"
+        android:layout_marginBottom="21dp"
+        android:thumbTint="@color/colorAccent2"
+        app:layout_constraintBottom_toBottomOf="@+id/healthStat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/healthStat"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:saveEnabled="false"
+        android:layout_width="214dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="40dp"
+        android:min="0"
+        android:max="10"
+        android:layout_marginBottom="12dp"
+        android:thumbTint="@color/colorAccent2"
+        app:layout_constraintBottom_toBottomOf="@+id/moistureStat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/moistureStat"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/waterTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filler"
+        android:textColor="@color/textGrey"
+        app:layout_constraintBottom_toBottomOf="@+id/waterStat"
+        app:layout_constraintEnd_toEndOf="@+id/waterStat"
+        app:layout_constraintStart_toStartOf="@+id/waterStat"
+        app:layout_constraintTop_toTopOf="@+id/waterStat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

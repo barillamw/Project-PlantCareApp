@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    //colors from Dakota
+    <color name="colorPrimary2">#3C935C</color>
+    <color name="colorPrimaryDark2">#07713A</color>
+    <color name="colorAccent2">#77BC93</color>
+    <color name="colorLightGrey">#DADADA</color>
+    <color name="colorSage">#72A580</color>
+    <color name="textGrey">#505050</color>
+</resources>
