@@ -16,22 +16,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/barillamw/Project-PlantCareApp">
-    <img src= "https://github.com/barillamw/EVE/blob/main/Photos/Device.png" style = "width:500px" alt= "Image of EVE Design" />
+  <a href="https://github.com/barillamw/Project-WorkoutTrackingAPI">
+    <img src="./image.png" alt="Logo" height="80">
   </a>
 
-<h3 align="center">Plant Care Application</h3>
+<h3 align="center">Workout Tracking API</h3>
 
   <p align="center">
     <!-- <br />
-    <a href="https://github.com/barillamw/Project-PlantCareApp"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/barillamw/Project-WorkoutTrackingAPI"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/barillamw/Project-PlantCareApp">View Demo</a>
+    <a href="https://github.com/barillamw/Project-WorkoutTrackingAPI">View Demo</a>
     ·
-    <a href="https://github.com/barillamw/Project-PlantCareApp/issues">Report Bug</a>
+    <a href="https://github.com/barillamw/Project-WorkoutTrackingAPI/issues">Report Bug</a>
     ·
-    <a href="https://github.com/barillamw/Project-PlantCareApp/issues">Request Feature</a> -->
+    <a href="https://github.com/barillamw/Project-WorkoutTrackingAPI/issues">Request Feature</a> -->
   </p>
 </div>
 
@@ -65,112 +65,131 @@
 
 
 
+<!-- PROJECT TITLE -->
+# Smart Plant Care System
+
+<!-- PROJECT DESCRIPTION -->
+<p align="center">
+  Say goodbye to plant neglect and hello to healthier, happier indoor gardens. Designed with Kotlin, this mobile application is your gateway to nurturing your houseplants like a pro. Pairing seamlessly with a Raspberry Pi running a Python server and microcontrollers programmed in C, it's the ultimate tool for green thumbs. From monitoring soil moisture to adjusting lighting, our app puts plant care at your fingertips.
+</p>
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Lessons Learned](#lessons-learned)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)` -->
-
-<p> Practice entrepreneurial thinking by design and build a solution to a problem that people face. Houseplants have become a common item for young adults to own, but these plants come with additional responsibilities and can make traveling difficult. To help maintain these plants, EVE will water and provide light to house plants. With it's accompanying phone app, the system reads in data directly from the plant and takes the necessary action. 
+<p align="center">
+  The Smart Plant Care System is designed to transform a user's plant care routine into a seamless and enjoyable experience. Whether you're a seasoned gardener or a beginner, this system simplifies plant care and helps your indoor garden thrive.
 </p>
 
-Objectives:
-* Create a solution for a problem
-* Complete market research for current market competitors
-* Design a minimum viable prototype
-* Complete full business proposal and pitch for product
-* Present designs to board of investors
-<br />
+<!-- FEATURES -->
+## Features
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Real-time Monitoring
+- Track soil moisture, light levels, and more with an array of advanced sensors.
+- Receive instant alerts and insights to ensure your plants are always in optimal conditions.
 
+### Mobile Control
+- Manage your plant care remotely using a user-friendly, Kotlin-based mobile app.
+- Adjust watering schedules and lighting with a simple tap on your smartphone.
 
+### Raspberry Pi Power
+- A Raspberry Pi running a Python server serves as the central hub, connecting your plant care system to your mobile device.
 
-### Built With
-[![CPP][CPP]][CPP-url]
+### Microcontroller Precision
+- Microcontrollers programmed in C provide precise control over watering and lighting, ensuring your plants get the care they need.
+
+### Future-Ready
+- Stay tuned for our upcoming enhancements, including integration with a Flutter-based UI for even more control and data visualization.
+
+<!-- TECHNOLOGIES -->
+## Technologies
+
+- **Raspberry Pi**: The core hardware component serving as the central hub for your plant care system.
+- **Kotlin**: The programming language used to create a user-friendly mobile app for plant care management.
+- **Python**: Powers the Raspberry Pi server for seamless communication with the mobile app.
+- **C**: Microcontrollers are programmed in C for precise control of watering and lighting.
+- **Sensors**: Various sensors for monitoring soil moisture, light levels, and plant health.
+
+## Built With 
 [![Python][Python]][Python-url]
 [![Kotlin][Kotlin]][Kotlin-url]
-[![Flutter][Flutter]][Flutter-url]
-[![Azure][Azure]][Azure-url]
+[![Cpp][Cpp]][Cpp-url]
+[![RaspberryPi][RaspberryPi]][RaspberryPi-url]
 
-* **Django**: The core framework used to build the RESTful API, providing a structured and efficient way to manage workout data.
+<!-- GETTING STARTED -->
+## Getting Started
 
-* **MySQL Database**: The chosen relational database backend for storing exercise and routine data securely.
+1. **Clone the Repository**: Clone the repository containing the Raspberry Pi and microcontroller code.
 
-* **Azure App Service**: The API is hosted on Azure's App Service, ensuring reliable and scalable hosting solutions.
+2. **Set Up the Raspberry Pi**: Configure the Raspberry Pi with the Python server and ensure it's connected to your plant care system.
 
-* **Flutter (Future)**: The planned mobile UI to give users easy access to their workout data and progress charts.
+3. **Install the Mobile App**: Download and install the Kotlin-based mobile app on your smartphone.
 
+4. **Pair with the System**: Follow the app's instructions to pair it with your Raspberry Pi-based plant care system.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+5. **Control and Monitor**: Start managing and monitoring your plants with ease, right from your mobile device.
 
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
-1. **Clone the Repository**: Clone the repository containing the Django project.
-
-2. **Set Up SQL Server**: Configure the SQL Server database connection settings in the Django project's settings file.
-
-3. **Run Migrations**: Run database migrations to set up the initial schema: python manage.py makemigrations followed by python manage.py migrate.
-
-4. **Start the Development Server**: Launch the Django development server to test and interact with the API.
-
-5. **Access API Endpoints**: Use tools like curl, Postman, or any HTTP client to interact with the API's endpoints for exercise and routine management.
-
-6. **(Future) Flutter UI**: Stay tuned for the upcoming Flutter UI that will provide users with mobile access to their workout data.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+- Use the mobile app to adjust watering schedules, lighting conditions, and monitor your plant's health.
+- Explore the Python server on the Raspberry Pi to customize and fine-tune your plant care system.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Mobile Application to control lights and Water
-- [x] Physical Prototype
-- [x] Microcontroller/WebServer for system
-- [ ] Introduce Plant Library
+- [x] Real-time Monitoring and Alerts
+- [x] Mobile App for Plant Care Control
+- [x] Raspberry Pi Integration
+- [ ] Expand Sensor Support for Enhanced Plant Insights
+- [ ] Expand Plant Library
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LESSONS -->
+<!-- LESSONS LEARNED -->
 ## Lessons Learned
-Aside from the business and project management skills that this project taught me, I learned about python backend scripting for mobile applications, embedded system design, and was exposed to Kotlin development. 
 
-This application used Python server requests to remotely control the system from our application. Using multiple on boards within the system I was able to interpret the signal from the app and take actions such as change lighting and release water. The sensors would read data and store it to an AWS cloud to maintain historical data. 
-
-Coming from a primarily low level programming background, my exposure to Kotlin in this project gave me insight into how application files are structured and how to build basic functionality. I am excited to continue to explore this as I move forward with learning about software development. 
+During the development of our Smart Plant Care System, we encountered various challenges and gained valuable insights into combining technology and nature. We learned the importance of efficient data management, user authentication, and ensuring the security of plant care data.
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Contributions to our project are highly appreciated. Whether it's code improvements, documentation updates, or bug reports, your contributions help us make plant care smarter and more accessible.
 
 <!-- CONTACT -->
 ## Contact
 
 Michael Barilla - mbarill@ncsu.edu.com
 
+Embark on a greener journey with the Smart Plant Care System. Connect with us on GitHub and stay updated on the latest developments.
+
 Project Link: [https://github.com/barillamw/Project-PlantCareApp](https://github.com/barillamw/Project-PlantCareApp)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/barillamw/Project-PlantCareApp.svg?style=for-the-badge
-[contributors-url]: https://github.com/barillamw/Project-PlantCareApp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/barillamw/Project-PlantCareApp.svg?style=for-the-badge
-[forks-url]: https://github.com/barillamw/Project-PlantCareApp/network/members
-[stars-shield]: https://img.shields.io/github/stars/barillamw/Project-PlantCareApp.svg?style=for-the-badge
-[stars-url]: https://github.com/barillamw/Project-PlantCareApp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/barillamw/Project-PlantCareApp.svg?style=for-the-badge
-[issues-url]: https://github.com/barillamw/Project-PlantCareApp/issues
-[license-shield]: https://img.shields.io/github/license/barillamw/Project-PlantCareApp.svg?style=for-the-badge
-[license-url]: https://github.com/barillamw/Project-PlantCareApp/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/barillamw/Project-WorkoutTrackingAPI.svg?style=for-the-badge
+[contributors-url]: https://github.com/barillamw/Project-WorkoutTrackingAPI/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/barillamw/Project-WorkoutTrackingAPI.svg?style=for-the-badge
+[forks-url]: https://github.com/barillamw/Project-WorkoutTrackingAPI/network/members
+[stars-shield]: https://img.shields.io/github/stars/barillamw/Project-WorkoutTrackingAPI.svg?style=for-the-badge
+[stars-url]: https://github.com/barillamw/Project-WorkoutTrackingAPI/stargazers
+[issues-shield]: https://img.shields.io/github/issues/barillamw/Project-WorkoutTrackingAPI.svg?style=for-the-badge
+[issues-url]: https://github.com/barillamw/Project-WorkoutTrackingAPI/issues
+[license-shield]: https://img.shields.io/github/license/barillamw/Project-WorkoutTrackingAPI.svg?style=for-the-badge
+[license-url]: https://github.com/barillamw/Project-WorkoutTrackingAPI/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/michael-barilla
 [product-screenshot]: images/screenshot.png
@@ -194,7 +213,7 @@ Project Link: [https://github.com/barillamw/Project-PlantCareApp](https://github
 [C-url]: https://www.open-std.org/jtc1/sc22/wg14/
 [Arduino]: https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white
 [Arduino-url]: https://www.arduino.cc/
-[RapsberryPi]: https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi
+[RaspberryPi]: https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi
 [RaspberryPi-url]: https://www.raspberrypi.com/
 [CPP]: https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white
 [CPP-url]: https://isocpp.org/
